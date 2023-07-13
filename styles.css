@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+h1 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+li {
+    display: inline;
+}
+
+p {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: normal;
+    font-size: large;
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+nav {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.page_header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20vh;
+    /*
+	position: absolute; 
+	right: 0;
+	left: 0;
+	bottom: 0; 
+	*/
+}
+
+.img_float {
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 34px 0px;
+    box-shadow: 0px 0px 34px 0px;
+    opacity: 1;
+}
+
+body {
+    background-image: url(assets/mesh-gradient5.png);
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    text-align: center;
+    min-height: 116vh;
+    margin-bottom: 23px;
+}
+
+.tiles {
+    margin-top: -20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: inline;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+html {
+    /* overflow-x: hidden;
+	overflow-y: hidden;
+	[DISABLED - used to remove the slight pixel shift when scrollbar appears] margin-right: calc(-1 * (100vw - 100%));*/
+    height: 100%;
+}
+
+.index_hero_images {
+    padding-right: 8px;
+    padding-left: 8px;
+
+}
+
+.index_hero_images:hover {
+    transform: scale(1.05)
+}
+
+@media (max-width:734px) {
+    .index_hero_images {
+        margin-top: -50px;
+    }
+
+}
+
+.about_me_text {
+    text-align: left;
+    padding-top: 0px;
+}
+
+.hero_image {
+    margin-top: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+.card_titles {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: xx-large;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.card_description {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.work_tile {
+    border: thick solid #FFFFFF;
+    overflow-x: hidden;
+    background-color: #A984EF;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 8px 72px -27px;
+    box-shadow: 0px 8px 72px -27px;
+}
+
+.card_image_left {
+    float: left;
+    margin-right: 23px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+
+.card_image_right {
+    float: right;
+    margin-left: 23px;
+}
+
+.blog_text {
+    text-align: left;
+}
+
+.about_me_li {
+    display: list-item;
+    padding: 10px;
+}
+
+form {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.label-question {
+    margin-bottom: -16px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
